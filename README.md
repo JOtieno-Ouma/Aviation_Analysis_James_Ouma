@@ -44,38 +44,33 @@ This project is part of the Phase 1 Data Science Code Challenge. It analyzes his
 ### Key Findings:
 
 - *Most Common Aircraft*:  
-  - The most frequently involved aircraft makes include Cessna, Piper, and Beech.
+  - The most frequently involved aircraft in accidents makes include Cessna and piper
 
 - *Fatal Injuries by Aircraft*:
   - Some aircraft types are involved in higher fatality counts.
-  - Aggregated total fatalities by make and model helped identify risk trends.
+  - Aggregated total fatalities by aircraft types helped identify risk trends.
 
 - *Purpose of Flight Trends*:
-  - Accidents often occurred during personal flights, instructional flights, and unknown-purpose operations.
+  - Accidents often occurred during arrial application, arial observation, business and ferry, instructional flights, and unknown-purpose operations.
 
-- *Engine Type*:
-  - Single-engine aircraft were more commonly involved in accidents, but not necessarily in fatal ones.
-
----
+-
 
 ## ✅ Low-Risk Aircraft Identification
 
-By analyzing total fatal injuries by aircraft make/model, the following were *relatively low-risk aircraft* based on historical data:
+By analyzing tleast aircraft types by accident number, the following were *relatively low-risk aircraft* based on historical data: 1st Frt Gp FOCKE - WULF1, 3 XTRIM 450 ULTRA, RIVERS LLC SQ-2, 67 flyig Dutchman d1/LF, 107.5 Flying Corporation, 177 MF LLC PITTS MODEL, 777 FFZ, 2000 Mccoy Genesis, 2007, Savage Air LLC EPIC, 781569 INC FX210
 
-- Models with a high number of incidents but low fatalities.
-- Specific single-engine planes used in training and local transport.
 
-Further statistical analysis can refine these findings based on normalization by total flight hours or usage.
-
----
 
 ## 📈 Visualizations
 
 Created using *Tableau Public*, including:
 
-- Bar chart of most common aircraft types.
-- Heatmap of fatal injuries by aircraft make.
-- Pie chart showing distribution of Purpose of Flight.
-- Trend of accidents per year.
+- Trend of accidents per year
+- Bar chart for Top 10 most common aircraft in accidents
+- Bar chart for Least 10 Aircrat types by number of accidents
+- bar chart for Injuries by aircraft types
+- Bar Fatal injuries by aircraft types
+- Bar chart showing distribution of Purpose of Flight.
+- Disribution of accident by location.
 
-🔗 [Tableau Public Link (link)](https://public.tableau.com/)
+🔗 [Tableau Public Link (link)](https://public.tableau.com/authoring/James_Ouma/Accidentovertimeyearlytrend/Aviation_Dashboard%203#1)
